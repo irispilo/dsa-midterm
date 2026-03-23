@@ -63,6 +63,8 @@ class Playlist:
                 self._current = self._list.end
         self.play()
 
+    #3. Funcionalidad nueva
+
     def toggle_shuffle(self):
         """Activa o desactiva el modo shuffle."""
         self._shuffle = not self._shuffle
