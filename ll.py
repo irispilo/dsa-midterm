@@ -1,6 +1,3 @@
-"""Lista doblemente enlazada no-circular."""
-
-
 class Node:
     def __init__(self, data: any):
         self.data = data
